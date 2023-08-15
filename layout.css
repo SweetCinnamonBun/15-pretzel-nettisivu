@@ -184,7 +184,7 @@ hr {
   font-size: 1.4rem;
   line-height: 2.4rem;
   padding: 1.5rem;
-  padding-block-start: 0;
+  padding-block-start: 1rem;
 }
 
 .lower-section h1 {
@@ -233,8 +233,6 @@ hr {
 @media only screen and (min-width: 769px) {
   .wrapper {
     background-color: #f4e0b9;
-    width: 80%;
-    margin: auto;
   }
 
   .main-wrapper {
@@ -288,5 +286,13 @@ hr {
     font-size: 1.2rem;
     font-style: italic;
     padding-block-start: 0.2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    background-color: #f4e0b9;
+    width: 85%;
+    margin: auto;
   }
 }
